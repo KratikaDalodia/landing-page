@@ -46,6 +46,7 @@ li a{
 .hero-text p{
     color: #e5e7ee;
     font-size: 18px;
+    margin: 20px auto;
 }
 .hero-text button{
     background-color: #3882f6;
@@ -64,4 +65,105 @@ li a{
     border: 1px solid white;
     transform: scale(1.02);
     background-color: transparent;
+}
+.info{
+    color: #1f2937;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.random-info .img-box{
+    width: 150px;
+    height: 150px;
+    /* border: 2px solid #3882f6; */
+    border-radius: 6px;
+}
+.random-info{
+    display: flex;
+    justify-content: center;
+    gap: 60px;    
+}
+.random-info p{
+    text-align: center;
+    font-size: 0.92rem;
+    color: rgba(40, 40, 40, 0.783);
+    margin-top: 15px;
+}
+.random-info .block1,.block2,.block3,.block4{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    
+}
+.random-info .img-box img{
+    width: 150px;
+    height: inherit;
+    border-radius: 9px;
+}
+.quote-section{
+    height: 200px;
+    width: inherit;
+    background-color: #e5e7ee;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 70px;
+    padding-top :70px;
+}
+.quote-section h2{
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    align-items: center;
+}
+.quote-section h3{
+    color: #1f2937;
+    text-align: right;
+}
+.action-section{
+    height: 150px;
+    width: inherit;
+    background-color: #3882f6;
+    margin: 80px 120px;
+    border-radius: 10px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.action-section button{
+    align-self: center;
+}
+.action-section h3,p{
+    margin: 0;
+    color: white;
+}
+.action-section h3{
+    font-size: 1.3rem;
+}
+.action-section button{
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300;
+    font-size: 1.02rem;
+}
+.action-section button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #3882f6;
+    font-weight: 500;
+}
+.footer{
+    height: 60px;
+    width: inherit;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+}
+.footer h3{
+    color: white;
+    font-weight: lighter;
 }
